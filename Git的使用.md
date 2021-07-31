@@ -2,11 +2,67 @@
 
 https://blog.csdn.net/qq_36150631/article/details/81038485?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-0&spm=1001.2101.3001.4242
 
+版本控制工具
+
+1： 协同修改
+
+2： 数据备份
+
+3： 版本管理
+
+4： 权限控制
+
+5： 历史记录
+
+6： 分支管理 
+
+工作区  写代码  git add 
+
+暂存区 临时存储 git commit 
+
+历史版本  本地库 
+
+## 代码托管中心
+
+局域网 gitlab
+
+外网 GitHub  码云 
+
+push   本地库 推到代码托管中心  加入团队
+
+Pull 
+
+Clone  下载 自动初始化
+
+fork 复制其他人库  ，可以pr （pull request ）merger 
+
+项目级别 、仓库级别
+
+git config 
+
+系统用户级别：
+
+git config --global
+
+级别优先级：
+
+就近原则  项目级别优先于系统用户级别 
+
+分支的好处：
+
+同时并行推送多个功能的分支
+
+
+
+
+
+
+
 ## 1:新建代码库
 
 ```shell
 # 在当前目录新建一个Git代码库
-$ git init
+$ git init  可以生成 .git 
 # 新建一个目录，将其初始化为Git代码库
 $ git init [project-name]
 # 下载一个项目和它的整个代码历史
