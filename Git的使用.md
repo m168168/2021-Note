@@ -273,6 +273,16 @@ $ git stash
 $ git stash pop
 ~~~
 
+## 9:远程仓库
+
+~~~
+git remote set-url origin <url>
+git remote -v 
+git remote add origin <url_project>
+git remote rm origin 
+
+~~~
+
 
 
 ssh -T git@github.com
